@@ -87,6 +87,11 @@ h2 {
     margin-left: 135px;
 }
 
+b {
+    font-size: 20px;
+
+}
+
 h3 { 
     display: flex;
     align-items: center;
