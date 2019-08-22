@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    background:rgb(235, 235, 235);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(161,161,161);
+}
+
+h1 {
+    color: rgb(221,84,84);;
+    font-weight: bolder;
+    font-size:px
+}
+
+li {
+    display: flex;
+
+}
+
+
+
+.titre {
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+.minit {
+    display:flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    background: white;
+   
+}
+
+i {
+    padding: 10px 0 5px 0;
+    margin: 0 30px 0 30px;
+}
+
+
+
+ul {
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    padding: 10px 90px 5px 90px;
+    margin: 0 650px 0 650px;
+    border: none;
+    color: rgb(190, 190, 190);
+
+}
+
+.image{
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    border: 100px;
+}
+
+.image2{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 12px;
+    width: 100px;
+    height: 170px;
+}
+
+.container {
+    background: white;
+    margin-right: 650px;
+    margin-left: 650px;
+ 
+
+}
+
+
+h2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 19px;
+    padding: 25px;
+}
+
+h3 { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.block1{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+    margin: 0 650px 18px 650px;
+    border-radius: 5px;
+    border: 2px;
+    padding: 42px;
+}
+
+.block2{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    margin-left: 650px;
+    margin-right: 650px;
+}
+
+.block3{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    padding: 10px;
+}
+
+.block4{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    padding: 10px;
+}
+
+.block5{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    padding: 10px;
+    
+}
+
+
+
+.block1 > a > input {
+    border: none;
+    background:rgb(221,84,84);
+    height: 44px;
+    color:white;
+    width: 144px;
+    font-weight:445;
+}
+
+
+
+
+a:hover p {
+   cursor: pointer
+
+}
+
+a:hover input{
+    cursor: pointer;
+    padding: 10px;
+}
