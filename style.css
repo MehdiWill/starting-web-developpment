@@ -10,7 +10,6 @@ body {
 h1 {
     color: rgb(221,84,84);;
     font-weight: bolder;
-    font-size:px
 }
 
 li {
@@ -66,7 +65,7 @@ ul {
     flex-direction: column;
     justify-content: space-between;
     padding: 12px;
-    width: 100px;
+    width: 120px;
     height: 170px;
 }
 
@@ -128,23 +127,6 @@ h3 {
    
 }
 
-.block4{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    
-}
-
-.block5{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    
-    
-}
-
 .container > h2::before {
     background :rgb(235,235,235);
     content:"his";
@@ -158,9 +140,6 @@ h3 {
     width: 144px;
     font-weight:445;
 }
-
-
-
 
 
 a:hover p {
