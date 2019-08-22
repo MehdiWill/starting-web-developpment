@@ -74,7 +74,7 @@ ul {
     background: white;
     margin-right: 650px;
     margin-left: 650px;
- 
+    
 
 }
 
@@ -82,9 +82,9 @@ ul {
 h2 {
     display: flex;
     align-items: center;
-    flex-direction: column;
     font-size: 19px;
     padding: 25px;
+    margin-left: 135px;
 }
 
 h3 { 
@@ -101,8 +101,7 @@ h3 {
     justify-content: space-between;
     background: white;
     margin: 0 650px 18px 650px;
-    border-radius: 5px;
-    border: 2px;
+    border-radius:1px;
     padding: 42px;
 }
 
@@ -113,34 +112,38 @@ h3 {
     background: white;
     margin-left: 650px;
     margin-right: 650px;
+    border-radius: 1px ;
 }
 
 .block3{
     display:flex;
     align-items: center;
     justify-content: space-between;
-  
     padding: 10px;
+   
 }
 
 .block4{
     display:flex;
     align-items: center;
     justify-content: space-between;
-   
     padding: 10px;
+    
 }
 
 .block5{
     display:flex;
     align-items: center;
     justify-content: space-between;
-   
     padding: 10px;
+    
     
 }
 
-
+.container > h2::before {
+    background :rgb(235,235,235);
+    content:"his";
+}
 
 .block1 > a > input {
     border: none;
@@ -150,6 +153,7 @@ h3 {
     width: 144px;
     font-weight:445;
 }
+
 
 
 
